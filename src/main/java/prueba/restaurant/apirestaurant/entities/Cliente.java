@@ -9,9 +9,9 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name="numero_mesa")
-    private int numMesa;
+    private Integer numMesa;
     @Column(name="telefono")
-    private int telefono;
+    private Integer telefono;
     @Column(name="direccion")
     private String direccion;
 }

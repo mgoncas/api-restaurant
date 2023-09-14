@@ -9,7 +9,7 @@ public class Ingrediente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name="precio")
-    private double precio;
+    private Double precio;
     @Column(name="nombre")
     private String nombre;
 }

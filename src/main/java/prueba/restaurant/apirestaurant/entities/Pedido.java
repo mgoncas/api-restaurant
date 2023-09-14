@@ -11,7 +11,7 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "precio")
-    private double precio;
+    private Double precio;
     @Column(name = "fecha y hora")
     private LocalDateTime fechaHora;
     @OneToOne

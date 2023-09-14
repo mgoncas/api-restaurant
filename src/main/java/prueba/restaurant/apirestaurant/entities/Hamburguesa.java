@@ -9,10 +9,14 @@ public class Hamburguesa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name="precio")
-    private double precio;
+    private Double precio;
     @Column(name="nombre")
     private String nombre;
     @ManyToOne
     private Pedido pedido;
+    @OneToOne
+    private Pan pan;
+    @OneToOne
+    private TipoCarne tipoCarne;
 
 }

@@ -16,6 +16,5 @@ public class Bebida {
     private Double precio;
     @Column(name="nombre")
     private String nombre;
-    @ManyToOne
-    private Pedido pedido;
+
 }

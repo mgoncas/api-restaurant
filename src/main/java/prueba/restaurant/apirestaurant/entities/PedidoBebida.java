@@ -7,14 +7,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "complemento")
-public class Complemento {
+@Table(name = "pedido_bebida")
+public class PedidoBebida {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name="precio")
-    private Double precio;
-    @Column(name="nombre")
-    private String nombre;
-
+    @OneToOne
+    private Pedido pedido;
+    @OneToOne
+    private Bebida bebida;
 }

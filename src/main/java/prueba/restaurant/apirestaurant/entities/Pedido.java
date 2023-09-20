@@ -17,6 +17,8 @@ public class Pedido {
     private Double precio;
     @Column(name = "fecha y hora")
     private LocalDateTime fechaHora;
+    @Column(name="numero_mesa")
+    private Integer numMesa;
     @OneToOne
     private Cliente cliente;
 

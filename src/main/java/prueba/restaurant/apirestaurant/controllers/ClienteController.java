@@ -46,16 +46,16 @@ public class ClienteController {
     }
 
     @PutMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE})
-    public ResponseEntity<ClienteDTO> putCliente(@PathVariable Long id,@RequestBody ClienteDTO cliente){
-        if (!cliente.getId().equals(id)){
+    public ResponseEntity<ClienteDTO> putCliente(@PathVariable Long id,@RequestBody ClienteDTO cambioCliente){
+        if (!cambioCliente.getId().equals(id)){
             return ResponseEntity.badRequest().build();
         }
         ClienteDTO clienteDTO= clienteService.findById(id);
         if(clienteDTO==null){
             return ResponseEntity.noContent().build();
         }
-        clienteService.update(cliente);
-        return ResponseEntity.ok(cliente);
+        clienteService.update(cambioCliente);
+        return ResponseEntity.ok(cambioCliente);
     }
 
     @DeleteMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE})

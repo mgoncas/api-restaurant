@@ -15,3 +15,9 @@ insert into pan (nombre, precio)values ('brioche','1');
 insert into pan (nombre, precio)values ('sésamo','1.5');
 insert into pan (nombre, precio)values ('integral','2');
 insert into pan (nombre, precio)values ('centeno','2.5');
+
+SELECT * FROM BEBIDA
+
+insert into bebida (nombre, precio)values ('coca cola','1.5');
+insert into bebida (nombre, precio)values ('fanta','1.5');
+insert into bebida (nombre, precio)values ('nestea','1.5');

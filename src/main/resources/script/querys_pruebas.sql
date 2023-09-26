@@ -15,3 +15,10 @@ insert into pan (nombre, precio)values ('brioche','1');
 insert into pan (nombre, precio)values ('sésamo','1.5');
 insert into pan (nombre, precio)values ('integral','2');
 insert into pan (nombre, precio)values ('centeno','2.5');
+
+SELECT * FROM INGREDIENTE
+
+insert into ingrediente (nombre, precio)values ('lechuga','1');
+insert into ingrediente (nombre, precio)values ('cebolla','1.5');
+insert into ingrediente (nombre, precio)values ('tomate','2');
+insert into ingrediente (nombre, precio)values ('queso','2.5');

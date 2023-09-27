@@ -16,8 +16,17 @@ insert into pan (nombre, precio)values ('sésamo','1.5');
 insert into pan (nombre, precio)values ('integral','2');
 insert into pan (nombre, precio)values ('centeno','2.5');
 
+
+SELECT * FROM INGREDIENTE
+
+insert into ingrediente (nombre, precio)values ('lechuga','1');
+insert into ingrediente (nombre, precio)values ('cebolla','1.5');
+insert into ingrediente (nombre, precio)values ('tomate','2');
+insert into ingrediente (nombre, precio)values ('queso','2.5');
+
 SELECT * FROM BEBIDA
 
 insert into bebida (nombre, precio)values ('coca cola','1.5');
 insert into bebida (nombre, precio)values ('fanta','1.5');
 insert into bebida (nombre, precio)values ('nestea','1.5');
+

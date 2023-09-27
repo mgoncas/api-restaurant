@@ -30,3 +30,11 @@ insert into bebida (nombre, precio)values ('coca cola','1.5');
 insert into bebida (nombre, precio)values ('fanta','1.5');
 insert into bebida (nombre, precio)values ('nestea','1.5');
 
+SELECT * FROM COMPLEMENTO
+
+insert into complemento (nombre, precio)values ('alitas','3');
+insert into complemento (nombre, precio)values ('patatas','2');
+insert into complemento (nombre, precio)values ('ensalada','3');
+
+
+

@@ -15,7 +15,7 @@ public class Pedido {
     private Long id;
     @Column(name = "precio")
     private Double precio;
-    @Column(name = "fecha y hora")
+    @Column(name = "fecha_hora")
     private LocalDateTime fechaHora;
     @Column(name="numero_mesa")
     private Integer numMesa;

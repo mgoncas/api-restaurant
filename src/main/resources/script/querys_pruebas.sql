@@ -37,4 +37,8 @@ insert into complemento (nombre, precio)values ('patatas','2');
 insert into complemento (nombre, precio)values ('ensalada','3');
 
 
+SELECT * FROM PEDIDO
+
+insert into pedido (precio,fecha_hora,numero_mesa) VALUES('3','2023-09-28 12:00:00',1);
+
 
